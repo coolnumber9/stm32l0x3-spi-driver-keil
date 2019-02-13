@@ -11,30 +11,30 @@
 
 ### --- MDK ARM build output files --- ###
 # Prerequisites
-MDK-ARM/stm32l0x3-spi-driver/*.d
-MDK-ARM/stm32l0x3-spi-driver/*.dep
-MDK-ARM/stm32l0x3-spi-driver/*.crf
+MDK-ARM/stm32l0x3-spi-driver-keil/*.d
+MDK-ARM/stm32l0x3-spi-driver-keil/*.dep
+MDK-ARM/stm32l0x3-spi-driver-keil/*.crf
 
 # --- Object files ---
-MDK-ARM/stm32l0x3-spi-driver/*.o
-MDK-ARM/stm32l0x3-spi-driver/*.obj
-MDK-ARM/stm32l0x3-spi-driver/*.OBJ
+MDK-ARM/stm32l0x3-spi-driver-keil/*.o
+MDK-ARM/stm32l0x3-spi-driver-keil/*.obj
+MDK-ARM/stm32l0x3-spi-driver-keil/*.OBJ
 
 # --- Listing and DBG Files ---
-#MDK-ARM/stm32l0x3-spi-driver/*.COD
-#MDK-ARM/stm32l0x3-spi-driver/*.cod
-#MDK-ARM/stm32l0x3-spi-driver/*.[Ii]
+#MDK-ARM/stm32l0x3-spi-driver-keil/*.COD
+#MDK-ARM/stm32l0x3-spi-driver-keil/*.cod
+#MDK-ARM/stm32l0x3-spi-driver-keil/*.[Ii]
 MDK-ARM/*.scvd
 MDK-ARM/*.LST
 MDK-ARM/*.lst
-MDK-ARM/stm32l0x3-spi-driver/*.iex
-MDK-ARM/stm32l0x3-spi-driver/*.MAP
-MDK-ARM/stm32l0x3-spi-driver/*.map
-#MDK-ARM/stm32l0x3-spi-driver/*.[Mm]51
-#MDK-ARM/stm32l0x3-spi-driver/*.[Mm]66
-#MDK-ARM/stm32l0x3-spi-driver/*.SCR
-#MDK-ARM/stm32l0x3-spi-driver/*.scr
-MDK-ARM/stm32l0x3-spi-driver/*.sct
+MDK-ARM/stm32l0x3-spi-driver-keil/*.iex
+MDK-ARM/stm32l0x3-spi-driver-keil/*.MAP
+MDK-ARM/stm32l0x3-spi-driver-keil/*.map
+#MDK-ARM/stm32l0x3-spi-driver-keil/*.[Mm]51
+#MDK-ARM/stm32l0x3-spi-driver-keil/*.[Mm]66
+#MDK-ARM/stm32l0x3-spi-driver-keil/*.SCR
+#MDK-ARM/stm32l0x3-spi-driver-keil/*.scr
+MDK-ARM/stm32l0x3-spi-driver-keil/*.sct
 
 # --- LINK output ---
 MDK-ARM/*.ABS
@@ -44,12 +44,12 @@ MDK-ARM/*.ABS
 #MDK-ARM/*.LIB
 
 # --- uVision Output ---
-MDK-ARM/stm32l0x3-spi-driver/*.lnp
-MDK-ARM/stm32l0x3-spi-driver/*.build_log.htm
-MDK-ARM/stm32l0x3-spi-driver/*.htm
-MDK-ARM/stm32l0x3-spi-driver/*.HEX
-MDK-ARM/stm32l0x3-spi-driver/*.hex
-MDK-ARM/stm32l0x3-spi-driver/*.axf
+MDK-ARM/stm32l0x3-spi-driver-keil/*.lnp
+MDK-ARM/stm32l0x3-spi-driver-keil/*.build_log.htm
+MDK-ARM/stm32l0x3-spi-driver-keil/*.htm
+MDK-ARM/stm32l0x3-spi-driver-keil/*.HEX
+MDK-ARM/stm32l0x3-spi-driver-keil/*.hex
+MDK-ARM/stm32l0x3-spi-driver-keil/*.axf
 
 # --- Build Files ---
 #MDK-ARM/*._IA
