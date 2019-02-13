@@ -59,7 +59,7 @@ MDK-ARM/stm32l0x3-spi-driver-keil/*.axf
 # --- uVision Project ---
 MDK-ARM/*.uvgui.*
 MDK-ARM/*.uvguix.*
-MDK-ARM/*.uvoptx.*
-MDK-ARM/*.uvprojx.*
+#MDK-ARM/*.uvoptx
+#MDK-ARM/*.uvprojx
 
 # End of https://www.gitignore.io/api/keil
