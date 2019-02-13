@@ -1,52 +1,65 @@
+# Created by https://www.gitignore.io/api/keil
+# Edit at https://www.gitignore.io/?templates=keil
+# Custom edit by: Kristoffer Dominic Amora
+
+### Keil ###
+# MX Ptoject
+*.mxproject
+
+# --- STMCubeMX ---
+#*.ioc
+
+### --- MDK ARM build output files --- ###
 # Prerequisites
-*.d
+MDK-ARM/stm32l0x3-spi-driver/*.d
+MDK-ARM/stm32l0x3-spi-driver/*.dep
+MDK-ARM/stm32l0x3-spi-driver/*.crf
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# --- Object files ---
+MDK-ARM/stm32l0x3-spi-driver/*.o
+MDK-ARM/stm32l0x3-spi-driver/*.obj
+MDK-ARM/stm32l0x3-spi-driver/*.OBJ
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# --- Listing and DBG Files ---
+#MDK-ARM/stm32l0x3-spi-driver/*.COD
+#MDK-ARM/stm32l0x3-spi-driver/*.cod
+#MDK-ARM/stm32l0x3-spi-driver/*.[Ii]
+MDK-ARM/*.scvd
+MDK-ARM/*.LST
+MDK-ARM/*.lst
+MDK-ARM/stm32l0x3-spi-driver/*.iex
+MDK-ARM/stm32l0x3-spi-driver/*.MAP
+MDK-ARM/stm32l0x3-spi-driver/*.map
+#MDK-ARM/stm32l0x3-spi-driver/*.[Mm]51
+#MDK-ARM/stm32l0x3-spi-driver/*.[Mm]66
+#MDK-ARM/stm32l0x3-spi-driver/*.SCR
+#MDK-ARM/stm32l0x3-spi-driver/*.scr
+MDK-ARM/stm32l0x3-spi-driver/*.sct
 
-# Precompiled Headers
-*.gch
-*.pch
+# --- LINK output ---
+MDK-ARM/*.ABS
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# --- Libraries ---
+#MDK-ARM/*.lib
+#MDK-ARM/*.LIB
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# --- uVision Output ---
+MDK-ARM/stm32l0x3-spi-driver/*.lnp
+MDK-ARM/stm32l0x3-spi-driver/*.build_log.htm
+MDK-ARM/stm32l0x3-spi-driver/*.htm
+MDK-ARM/stm32l0x3-spi-driver/*.HEX
+MDK-ARM/stm32l0x3-spi-driver/*.hex
+MDK-ARM/stm32l0x3-spi-driver/*.axf
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# --- Build Files ---
+#MDK-ARM/*._IA
+#MDK-ARM/*.__[Ii]
+#MDK-ARM/*._[Ii][Ii]
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# --- uVision Project ---
+MDK-ARM/*.uvgui.*
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx.*
+MDK-ARM/*.uvprojx.*
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# End of https://www.gitignore.io/api/keil
